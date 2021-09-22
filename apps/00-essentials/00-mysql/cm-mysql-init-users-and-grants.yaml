@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-init-users-and-grants
+  namespace: middleware
+  labels:
+    app: mariadb
+    app.kubernetes.io/component: primary
+data:
+  mysql-init-users-and-grants.sql: >
+    -- ApolloDB -----------------------------------------------------
+
+    CREATE USER IF NOT EXISTS apollo@'%' IDENTIFIED BY 'apollo';
+
+    CREATE DATABASE IF NOT EXISTS Pro_ApolloConfigDB DEFAULT CHARACTER SET = utf8mb4;
+
+    CREATE DATABASE IF NOT EXISTS Test_ApolloConfigDB DEFAULT CHARACTER SET = utf8mb4;
+
+    CREATE DATABASE IF NOT EXISTS ApolloPortalDB DEFAULT CHARACTER SET = utf8mb4;
+
+    GRANT ALL PRIVILEGES ON Pro_ApolloConfigDB.* TO 'apollo'@'%';
+
+    GRANT ALL PRIVILEGES ON Test_ApolloConfigDB.* TO 'apollo'@'%';
+    
+    GRANT ALL PRIVILEGES ON ApolloPortalDB.* TO 'apollo'@'%';
+
+    -- Nacos --------------------------------------------------------
+
+    CREATE USER IF NOT EXISTS nacos@'%' IDENTIFIED BY 'nacos';
+    
+    CREATE DATABASE IF NOT EXISTS nacos DEFAULT CHARACTER SET = utf8mb4;
+    
+    GRANT ALL PRIVILEGES ON nacos.* TO 'nacos'@'%';
