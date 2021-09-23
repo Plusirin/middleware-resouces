@@ -58,8 +58,8 @@ config:
   # dev: http://apollo-configservice-dev:8080
   # pro: http://apollo-configservice-pro:8080
   metaServers: 
-    - pro: http://apollo-service-pro-apollo-configservice:8080
-    - test: http://apollo-service-test-apollo-configservice:8080
+    pro: http://apollo-service-pro-apollo-configservice:8080
+    test: http://apollo-service-test-apollo-configservice:8080
   # specify the context path, e.g. /apollo
   contextPath: ""
   # extra config files for apollo-portal, e.g. application-ldap.yml
