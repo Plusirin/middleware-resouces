@@ -80,7 +80,7 @@ releases:
       - values/skywalking.yaml
 
   # zookeeper
-  - name: zookeeper
+  - name: zookeeper-test
     namespace: ctexcelhk
     chart: bitnami/zookeeper
     version: 6.5.3

@@ -1211,7 +1211,7 @@ externalZookeeper:
   ## Server or list of external zookeeper servers to use.
   ##
   servers:
-    - zookeeper.ctexcelhk.svc.cluster.local
+    - zookeeper-test.ctexcelhk.svc.cluster.local
 
 ## Extra init containers to add to the deployment
 ##
