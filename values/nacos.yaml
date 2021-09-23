@@ -27,7 +27,7 @@ nacos:
    # type: embedded
     type: mysql
     db:
-      host: mysql.middleware
+      host: mysql.ctexcelhk
       name: nacos
       port: 3306
       username: nacos

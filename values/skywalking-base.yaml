@@ -42,7 +42,7 @@ oap:
     # zabbix: 10051
     grpc: 11800
     rest: 12800
-  replicas: 2
+  replicas: 1
   service:
     type: ClusterIP
   javaOpts: -Xmx2g -Xms2g

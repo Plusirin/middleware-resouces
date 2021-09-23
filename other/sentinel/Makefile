@@ -1,7 +1,7 @@
 # RELEASE:sentinel
 #
 RELEASE_NAME := sentinel
-NAMESPACE := middleware
+NAMESPACE := ctexcelhk
 STORAGECLASS := rook-cephfs
 
 install:

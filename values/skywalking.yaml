@@ -29,7 +29,7 @@ ui:
 elasticsearch:
   enabled: false
   config:               # For users of an existing elasticsearch cluster,takes effect when `elasticsearch.enabled` is false
-    host: elasticsearch-master.middleware
+    host: elasticsearch-master.ctexcelhk
     port:
       http: 9200
-  replicas: 3
+  replicas: 1

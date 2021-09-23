@@ -1,7 +1,7 @@
 #RELEASE:nacos-
 
 RELEASE_NAME := nacos
-NAMESPACE := middleware
+NAMESPACE := ctexcelhk
 STORAGECLASS := rook-cephfs
 
 DBHOST := apollo-service-pro-mysql

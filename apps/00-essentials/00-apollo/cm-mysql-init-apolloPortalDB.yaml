@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: mysql-init-apollo-portaldb
-  namespace: middleware
+  namespace: ctexcelhk
   labels:
     app: mariadb
     app.kubernetes.io/component: primary

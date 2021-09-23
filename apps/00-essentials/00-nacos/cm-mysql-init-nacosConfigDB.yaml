@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: mysql-init-nacos-configdb
-  namespace: middleware
+  namespace: ctexcelhk
   labels:
     app: mariadb
     app.kubernetes.io/component: primary

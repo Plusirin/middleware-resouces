@@ -40,7 +40,7 @@ repositories:
 releases:
   # mysql
   - name: mysql
-    namespace: middleware
+    namespace: ctexcelhk
     chart: charts/mysql
     version: 8.8.6
     values:
@@ -48,7 +48,7 @@ releases:
 
   # nacos
   - name: nacos
-    namespace: middleware
+    namespace: ctexcelhk
     chart: "charts/nacos"
     version: 0.1.5
     values:
@@ -56,7 +56,7 @@ releases:
 
   # elasticsearch
   - name: elasticsearch
-    namespace: middleware
+    namespace: ctexcelhk
     chart: elastic/elasticsearch
     version: 7.5.1
     values:
@@ -64,7 +64,7 @@ releases:
 
   # logstash
   - name: logstash
-    namespace: middleware
+    namespace: ctexcelhk
     chart: elastic/logstash
     version: 7.14.0
     values:
@@ -72,7 +72,7 @@ releases:
 
   # skywalking
   - name: skywalking
-    namespace: middleware
+    namespace: ctexcelhk
     chart: charts/skywalking
     version: 4.1.0
     values:
@@ -81,7 +81,7 @@ releases:
 
   # zookeeper
   - name: zookeeper
-    namespace: middleware
+    namespace: ctexcelhk
     chart: bitnami/zookeeper
     version: 6.5.3
     values:
@@ -89,7 +89,7 @@ releases:
 
   # kafka
   - name: kafka
-    namespace: middleware
+    namespace: ctexcelhk
     chart: bitnami/kafka
     version: 12.17.3
     values:
@@ -97,7 +97,7 @@ releases:
 
   # sonatype-nexus
   - name: nexus
-    namespace: middleware
+    namespace: ctexcelhk
     chart: oteemocharts/sonatype-nexus
     version: 5.2.1
     values:
@@ -105,7 +105,7 @@ releases:
 
   # apollo-service-pro
   - name: apollo-service-pro
-    namespace: middleware
+    namespace: ctexcelhk
     chart: apollo/apollo-service
     version: 0.3.0
     values:
@@ -113,7 +113,7 @@ releases:
   
   # apollo-service-test
   - name: apollo-service-test
-    namespace: middleware
+    namespace: ctexcelhk
     chart: apollo/apollo-service
     version: 0.3.0
     values:
@@ -121,7 +121,7 @@ releases:
 
   # apollo-portal
   - name: apollo-portal
-    namespace: middleware
+    namespace: ctexcelhk
     chart: apollo/apollo-portal
     version: 0.3.0
     values:

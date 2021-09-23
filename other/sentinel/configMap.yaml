@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: sentinel
-  namespace: middleware
+  namespace: ctexcelhk
   labels:
     app: sentinel
 data:

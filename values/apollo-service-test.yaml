@@ -16,7 +16,7 @@
 configdb:
   name: apollo-configdb
   # apolloconfigdb host
-  host: mysql.middleware
+  host: mysql.ctexcelhk
   port: 3306
   dbName: Test_ApolloConfigDB
   # apolloconfigdb user name

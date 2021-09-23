@@ -3,7 +3,7 @@ kind: Service
 metadata:
 
   name: sentinel
-  namespace: middleware
+  namespace: ctexcelhk
   labels:
     app: sentinel
 spec:
